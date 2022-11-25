@@ -1,0 +1,1 @@
+[![Сборка status](https://ci.appveyor.com/api/projects/status/th8arwqid7ti3wr1?svg=true)](https://ci.appveyor.com/project/AnastasiaCymbalyuk77753/anim)
