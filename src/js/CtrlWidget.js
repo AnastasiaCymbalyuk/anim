@@ -1,11 +1,11 @@
 export default class CtrlWidget {
-    constructor(elem, name) {
-        this.name = name;
-        this.elem = elem;
-    }
+  constructor(elem, name) {
+    this.name = name;
+    this.elem = elem;
+  }
 
-    init(){
-        this.elem.innerHTML = ` 
+  init() {
+    this.elem.innerHTML = ` 
         <div class="box_collapse">
             <button class="btn_collapse">${this.name}</button>
             <div class="box_text_collapse">
@@ -18,6 +18,6 @@ export default class CtrlWidget {
                     sapiente ea proident.
                 </p>
             </div>
-        </div>`
-    }
+        </div>`;
+  }
 }
